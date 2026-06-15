@@ -1,0 +1,19 @@
+<svg width="64" height="64" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- "W" from Silkscreen Bold (the brand mark face), on its 6x5 pixel grid:
+       ##..## / ###### / ###### / ###### / .####.  — cell = 21px.
+       Backdrop is the hero sky wash: deep blue settling into warm beige. -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b7be4"/>
+      <stop offset=".52" stop-color="#4f9cee"/>
+      <stop offset="1" stop-color="#f2e5d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="40" fill="url(#sky)"/>
+  <g fill="#ffffff" shape-rendering="crispEdges">
+    <rect x="27" y="37" width="42" height="21"/>
+    <rect x="111" y="37" width="42" height="21"/>
+    <rect x="27" y="58" width="126" height="63"/>
+    <rect x="48" y="121" width="84" height="21"/>
+  </g>
+</svg>
