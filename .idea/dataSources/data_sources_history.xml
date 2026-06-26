@@ -1,0 +1,180 @@
+<DataSourcesHistory>
+  <DataSourceFromHistory isRemovedFromProject="true">
+    <data-source source="LOCAL" name="big_cities_demographic_indicators-2026-06-15.csv" uuid="f66b04eb-4068-4737-a25f-d79a7bf17bd5">
+      <database-info product="SQLite" version="3.51.1" jdbc-version="4.2" driver-name="SQLite JDBC" driver-version="3.51.1.0" dbms="SQLITE" exact-version="3.51.1" exact-driver-version="3.51">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/data/raw/big_cities_demographic_indicators-2026-06-15.csv</jdbc-url>
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </DataSourceFromHistory>
+  <DataSourceFromHistory isRemovedFromProject="true">
+    <data-source source="LOCAL" name="DuckDB" read-only="true" uuid="de0b656c-34d1-407d-bcec-ba52989aeea1">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="DUCKDB" />
+      <driver-ref>duckdb</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.duckdb.DuckDBDriver</jdbc-driver>
+      <jdbc-url>md:_share/us_gov_db/ac479a8c-34d9-4aa7-9322-b5a60275dcef</jdbc-url>
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping />
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </DataSourceFromHistory>
+  <DataSourceFromHistory isRemovedFromProject="true">
+    <data-source source="LOCAL" name="MotherDuck" uuid="f365ad96-14e4-4340-b285-5362cf70a9e6">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="DUCKDB" />
+      <driver-ref>duckdb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.duckdb.DuckDBDriver</jdbc-driver>
+      <jdbc-url>jdbc:duckdb:md:us_gov_db</jdbc-url>
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping />
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="intellij_idea" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhlbGxvQHJ5YW53YWtlZC5jb20iLCJtZFJlZ2lvbiI6ImF3cy11cy13ZXN0LTIiLCJzZXNzaW9uIjoiaGVsbG8ucnlhbndha2VkLmNvbSIsInBhdCI6IklKY19Uc2x5Zi1lVGJPdDVzNEwta0NIYnNOQUxwZDI3bkNrcXJTQ2dWbXciLCJ1c2VySWQiOiI3ZjQ4YzkzOS1lNGQwLTQ5ZDAtODdlNi0xZTgxMDZjYzlkYjQiLCJpc3MiOiJtZF9wYXQiLCJyZWFkT25seSI6ZmFsc2UsInRva2VuVHlwZSI6InJlYWRfd3JpdGUiLCJpYXQiOjE3ODE4ODk3MTl9.MHUUnOTw89-u6v8yRSg5i7yG9Tt9NLASDMXbTvan0oI" />
+      </driver-properties>
+    </data-source>
+  </DataSourceFromHistory>
+  <DataSourceFromHistory isRemovedFromProject="true">
+    <data-source source="LOCAL" name="MotherDuck" uuid="c30534bc-3a6e-4dc9-a9d0-fef70d36e516">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="DUCKDB" />
+      <driver-ref>duckdb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.duckdb.DuckDBDriver</jdbc-driver>
+      <jdbc-url>jdbc:duckdb:md:us_gov_db</jdbc-url>
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping />
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="motherduck_token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhlbGxvQHJ5YW53YWtlZC5jb20iLCJtZFJlZ2lvbiI6ImF3cy11cy13ZXN0LTIiLCJzZXNzaW9uIjoiaGVsbG8ucnlhbndha2VkLmNvbSIsInBhdCI6IklKY19Uc2x5Zi1lVGJPdDVzNEwta0NIYnNOQUxwZDI3bkNrcXJTQ2dWbXciLCJ1c2VySWQiOiI3ZjQ4YzkzOS1lNGQwLTQ5ZDAtODdlNi0xZTgxMDZjYzlkYjQiLCJpc3MiOiJtZF9wYXQiLCJyZWFkT25seSI6ZmFsc2UsInRva2VuVHlwZSI6InJlYWRfd3JpdGUiLCJpYXQiOjE3ODE4ODk3MTl9.MHUUnOTw89-u6v8yRSg5i7yG9Tt9NLASDMXbTvan0oI" />
+      </driver-properties>
+    </data-source>
+  </DataSourceFromHistory>
+  <DataSourceFromHistory isRemovedFromProject="true">
+    <data-source source="LOCAL" name="MotherDuck" uuid="256f98f3-c1dc-4e81-ba43-c31fdb6367b8">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="DUCKDB" />
+      <driver-ref>duckdb</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.duckdb.DuckDBDriver</jdbc-driver>
+      <jdbc-url>jdbc:duckdb:md:us_gov_db?motherduck_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhlbGxvQHJ5YW53YWtlZC5jb20iLCJtZFJlZ2lvbiI6ImF3cy11cy13ZXN0LTIiLCJzZXNzaW9uIjoiaGVsbG8ucnlhbndha2VkLmNvbSIsInBhdCI6IlNtcDN2M3pLazk2cDg1dmsxOTBnUDhwTDFITXhBb1M0YzVGTURHQnBwNmsiLCJ1c2VySWQiOiI3ZjQ4YzkzOS1lNGQwLTQ5ZDAtODdlNi0xZTgxMDZjYzlkYjQiLCJpc3MiOiJtZF9wYXQiLCJyZWFkT25seSI6ZmFsc2UsInRva2VuVHlwZSI6InJlYWRfd3JpdGUiLCJpYXQiOjE3ODE4OTIwMTF9.5Ox1yIxR_SkeasfpHJaTzGiKxajikF93PDatr2ATxQ4</jdbc-url>
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping />
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </DataSourceFromHistory>
+  <DataSourceFromHistory isRemovedFromProject="true">
+    <data-source source="LOCAL" name="MotherDuck" uuid="04f42e4b-2745-4813-93ef-fa3061da4280">
+      <database-info product="DuckDB" version="v1.3.1" jdbc-version="1.0" driver-name="DuckDBJ" driver-version="1.0" dbms="DUCKDB" exact-version="1.0" exact-driver-version="1.0">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <driver-ref>duckdb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.duckdb.DuckDBDriver</jdbc-driver>
+      <jdbc-url>jdbc:duckdb:md:SPGZ-FKPR</jdbc-url>
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </DataSourceFromHistory>
+  <DataSourceFromHistory isRemovedFromProject="false">
+    <data-source source="LOCAL" name="MotherDuck" uuid="4a8e695b-03c2-40ae-ae4d-abe45f446cba">
+      <database-info product="PostgreSQL" version="150000" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.7.3" dbms="POSTGRES" exact-driver-version="42.7">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://pg.us-west-2-aws.motherduck.com:5432/us_gov_db</jdbc-url>
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </DataSourceFromHistory>
+  <DataSourceFromHistory isRemovedFromProject="true">
+    <data-source source="LOCAL" name="md:us_gov_db" uuid="f0a75eee-41c3-444c-a222-c262c8eec0d8">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="DUCKDB" />
+      <driver-ref>duckdb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.duckdb.DuckDBDriver</jdbc-driver>
+      <jdbc-url>jdbc:duckdb:md:us_gov_db</jdbc-url>
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping />
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </DataSourceFromHistory>
+  <DataSourceFromHistory isRemovedFromProject="true">
+    <data-source source="LOCAL" name="DuckDB" uuid="23a2bdc2-5095-4a99-a2db-de5e693d75e5">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="DUCKDB" />
+      <driver-ref>duckdb</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.duckdb.DuckDBDriver</jdbc-driver>
+      <jdbc-url>jdbc:duckdb:md:us_gov_db?motherduck_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhlbGxvQHJ5YW53YWtlZC5jb20iLCJtZFJlZ2lvbiI6ImF3cy11cy13ZXN0LTIiLCJzZXNzaW9uIjoiaGVsbG8ucnlhbndha2VkLmNvbSIsInBhdCI6Ilk5R0d3aVdXTnFiVVdtSDYwNEFtR0d5RWZtWU02Y0RKTzJCWnBPQVFFNFUiLCJ1c2VySWQiOiI3ZjQ4YzkzOS1lNGQwLTQ5ZDAtODdlNi0xZTgxMDZjYzlkYjQiLCJpc3MiOiJtZF9wYXQiLCJyZWFkT25seSI6ZmFsc2UsInRva2VuVHlwZSI6InJlYWRfd3JpdGUiLCJpYXQiOjE3ODE4OTMzMzl9.JY2RX_MZWsdhvzWv3sZUhu_RUJ4MaqwXbfg4H-scnrc</jdbc-url>
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping />
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </DataSourceFromHistory>
+  <DataSourceFromHistory isRemovedFromProject="true">
+    <data-source source="LOCAL" name="SQLite" uuid="13fd13b8-55aa-4407-93d0-6a457a0aab31">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" />
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:duckdb:md:us_gov_db?motherduck_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhlbGxvQHJ5YW53YWtlZC5jb20iLCJtZFJlZ2lvbiI6ImF3cy11cy13ZXN0LTIiLCJzZXNzaW9uIjoiaGVsbG8ucnlhbndha2VkLmNvbSIsInBhdCI6IkxaczhYSDZuS01QNVhDTXRndzNyRUE2WEJURWpLODJINUlITTV3TV9GX0EiLCJ1c2VySWQiOiI3ZjQ4YzkzOS1lNGQwLTQ5ZDAtODdlNi0xZTgxMDZjYzlkYjQiLCJpc3MiOiJtZF9wYXQiLCJyZWFkT25seSI6ZmFsc2UsInRva2VuVHlwZSI6InJlYWRfd3JpdGUiLCJpYXQiOjE3ODE4OTM2MzN9.bMb7qIVOmuVQgRhlcvvWSjg1JzmONKvdDTet8044t7M</jdbc-url>
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping />
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </DataSourceFromHistory>
+  <DataSourceFromHistory isRemovedFromProject="true">
+    <data-source source="LOCAL" name="DuckDB" uuid="ab56eea4-c4fa-4f23-ab61-9c1c043fffb6">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="DUCKDB" />
+      <driver-ref>duckdb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.duckdb.DuckDBDriver</jdbc-driver>
+      <jdbc-url>jdbc:duckdb:md:us_gov_dn?motherduck_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhlbGxvQHJ5YW53YWtlZC5jb20iLCJtZFJlZ2lvbiI6ImF3cy11cy13ZXN0LTIiLCJzZXNzaW9uIjoiaGVsbG8ucnlhbndha2VkLmNvbSIsInBhdCI6IkxaczhYSDZuS01QNVhDTXRndzNyRUE2WEJURWpLODJINUlITTV3TV9GX0EiLCJ1c2VySWQiOiI3ZjQ4YzkzOS1lNGQwLTQ5ZDAtODdlNi0xZTgxMDZjYzlkYjQiLCJpc3MiOiJtZF9wYXQiLCJyZWFkT25seSI6ZmFsc2UsInRva2VuVHlwZSI6InJlYWRfd3JpdGUiLCJpYXQiOjE3ODE4OTM2MzN9.bMb7qIVOmuVQgRhlcvvWSjg1JzmONKvdDTet8044t7M</jdbc-url>
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping />
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </DataSourceFromHistory>
+</DataSourcesHistory>

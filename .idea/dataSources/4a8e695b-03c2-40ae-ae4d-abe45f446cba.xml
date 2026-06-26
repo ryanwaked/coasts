@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MotherDuck">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.55">
+    <root id="1">
+      <ServerVersion>0.0</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="md_information_schema"/>
+    <database id="3" parent="1" name="my_db"/>
+    <database id="4" parent="1" name="system"/>
+    <database id="5" parent="1" name="temp"/>
+    <database id="6" parent="1" name="us_gov_db">
+      <Current>1</Current>
+    </database>
+    <schema id="7" parent="6" name="information_schema"/>
+    <schema id="8" parent="6" name="main">
+      <Current>1</Current>
+      <LastIntrospectionLocalTimestamp>2026-06-21.22:17:36</LastIntrospectionLocalTimestamp>
+    </schema>
+    <schema id="9" parent="6" name="pg_catalog"/>
+    <schema id="10" parent="6" name="raw"/>
+  </database-model>
+</dataSource>
